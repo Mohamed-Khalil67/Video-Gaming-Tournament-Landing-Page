@@ -1,0 +1,64 @@
+# Claude / AI tooling
+.claude/
+.claude.json
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# Node / package managers (if you ever add them)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+package-lock.json
+yarn.lock
+
+# Build / dist outputs
+dist/
+build/
+out/
+.cache/
+.parcel-cache/
+.vite/
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# Temp / backup
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Image source files (keep optimized web versions, ignore originals)
+*.psd
+*.ai
+*.sketch
+*.xd
+*.fig
+
+# Setup helpers (not needed in repo)
+setup.ps1
+setup_git.sh
+SETUP.md
